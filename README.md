@@ -20,13 +20,13 @@ I come up with the projects, design how they should work, write the requirements
 
 A long-running research programme on whether the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** are well-behaved, a question physicists have studied since the Velo–Zwanziger problem of the 1960s.
 
-- **Result:** a theorem, with a complete proof, that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
-- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. The proof-carrying computations were re-run by a second AI from the original files. A validation suite I designed (now 36 checks) passed completely (`COMPLETE_PASS`) on my own PC, on the full private archive and on the public repository: exact algebra in three engines, numerical stress tests, file integrity, self-tests that must catch deliberate faults, and every citation checked online.
+- **Result:** a theorem, with a written proof, that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
+- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. The proof-carrying computations were re-run by a second AI from the original files. A validation suite I designed (now 36 checks) passed completely (`COMPLETE_PASS`) on my own PC, on the full private archive and on the public repository: exact algebra in three engines, numerical stress tests, file integrity, self-tests that must catch deliberate faults, and every cited DOI and arXiv ID confirmed to exist online.
 - **Check it yourself:** the repository has the exact witness (checkable with plain Python, no installs), the proof scripts, and the validator, with a [guide to running it](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md). About 3 minutes on a desktop.
 - **Honest status:** AI-checked to a high standard, but **not yet reviewed by a human expert or formally machine-verified**. Narrow scope: one setting, one parameter point.
 
 📦 Repository and archived releases: [GitHub](https://github.com/samderenzis/rarita-schwinger-well-posedness) · [Zenodo](https://doi.org/10.5281/zenodo.24413648)  
-📄 Paper: *coming soon*
+📄 Paper: written (LaTeX, 26 pages) and frozen as a candidate. Perplexity has reviewed the manuscript (all points addressed); a ChatGPT review is next, and the paper will be posted after that.
 
 ## 🔨 What I build (AI-directed)
 
@@ -46,7 +46,7 @@ A long-running research programme on whether the equations for a **charged, mass
 - 📋 Requirements written down **before** anything gets built
 - 📏 Measure first, configure second
 - ✅ Test frameworks over hope, including tests that are deliberately broken to prove they can fail
-- 🔁 Independent re-checking: never let one AI grade its own work
+- 🔁 Separate re-checking: never let one AI grade its own work
 - 📓 Negative results and failed attempts stay on the record
 
 ## 📚 Currently learning
