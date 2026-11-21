@@ -14,19 +14,20 @@ I come up with the projects, design how they should work, write the requirements
 [![Repo](https://img.shields.io/badge/GitHub-rarita--schwinger--well--posedness-181717?style=flat-square&logo=github)](https://github.com/samderenzis/rarita-schwinger-well-posedness)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24413648-blue?style=flat-square)](https://doi.org/10.5281/zenodo.24413648)
 ![Validation](https://img.shields.io/badge/validation-COMPLETE__PASS-brightgreen?style=flat-square)
+[![Paper](https://img.shields.io/badge/paper-v2_(PDF)-informational?style=flat-square)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf)
 ![Status](https://img.shields.io/badge/status-not_peer_reviewed-orange?style=flat-square)
 
 *AI-collaborative mathematical physics (internal programme name: BHMAP).*
 
 A long-running research programme on whether the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** are well-behaved, a question physicists have studied since the Velo–Zwanziger problem of the 1960s.
 
-- **Result:** a theorem, with a written proof, that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
-- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. The proof-carrying computations were re-run by a second AI from the original files. A validation suite I designed (now 36 checks) passed completely (`COMPLETE_PASS`) on my own PC, on the full private archive and on the public repository: exact algebra in three engines, numerical stress tests, file integrity, self-tests that must catch deliberate faults, and every cited DOI and arXiv ID confirmed to exist online.
-- **Check it yourself:** the repository has the exact witness (checkable with plain Python, no installs), the proof scripts, and the validator, with a [guide to running it](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md). About 3 minutes on a desktop.
-- **Honest status:** AI-checked to a high standard, but **not yet reviewed by a human expert or formally machine-verified**. Narrow scope: one setting, one parameter point.
+- **Result:** a theorem, with a written proof in the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
+- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. The exact-check scripts were re-run by a second AI from the original files, and ChatGPT did a full review of the paper, code and archive, finding no error in the mathematics. A validation suite I designed (now 36 checks) passed completely (`COMPLETE_PASS`) on my own PC, on the full private archive and on the public repository: exact algebra in three engines, numerical stress tests, file integrity, self-tests that must catch deliberate faults, and every cited DOI and arXiv ID confirmed to exist online.
+- **Check it yourself:** the repository has the paper and its LaTeX source, the exact witness (checkable with plain Python, no installs), the exact-check scripts, and the validator, with a [guide to running it](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md). About 3 minutes on a desktop.
+- **Honest status:** reviewed by AI systems only. It is **not yet reviewed by a human expert, not independently replicated and not formally machine-verified**. Narrow scope: one setting, one parameter point. It doesn't say which of the three properties fails, and makes no physical claims. Feedback from specialists in hyperbolic PDE or higher-spin fields is very welcome.
 
 📦 Repository and archived releases: [GitHub](https://github.com/samderenzis/rarita-schwinger-well-posedness) · [Zenodo](https://doi.org/10.5281/zenodo.24413648)  
-📄 Paper: written (LaTeX, 26 pages) and frozen as a candidate. Perplexity has reviewed the manuscript (all points addressed); a ChatGPT review is next, and the paper will be posted after that.
+📄 Paper: [version 2 (PDF, 27 pages)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), posted in release [v1.0.9](https://github.com/samderenzis/rarita-schwinger-well-posedness/releases/tag/v1.0.9) with its LaTeX source, after reviews by Perplexity and ChatGPT. Next step: independent review by a human expert.
 
 ## 🔨 What I build (AI-directed)
 
