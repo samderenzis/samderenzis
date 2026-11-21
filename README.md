@@ -1,7 +1,7 @@
 # Hi, I'm Sam 👋
 
-**I build real software while learning to code — through AI-collaborative development.**
-I come up with the projects, design how they should work, write the requirements, and test everything myself, while AI writes the code under my direction. I'm not the programmer yet — I'm the architect, product owner, and QA. I think that split is the interesting part, so I'm honest about it.
+**I build real software and research through AI-collaborative work.**
+I come up with the projects, design how they should work, write the requirements, and test everything myself, while AI writes the code (and, in my research, drafts the mathematics) under my direction. I'm not the programmer yet: I'm the architect, product owner, and QA. I think that split is the interesting part, so I'm honest about it.
 
 ![AI-Collaborative](https://img.shields.io/badge/Method-AI--Collaborative_Development-blueviolet?style=for-the-badge)
 ![Learning Python](https://img.shields.io/badge/Currently_Learning-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -9,15 +9,26 @@ I come up with the projects, design how they should work, write the requirements
 
 ---
 
+## 🔬 Featured project: BHMAP (AI-collaborative mathematical physics)
+
+A long-running research programme on whether the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** are well-behaved, a question physicists have studied since the Velo–Zwanziger problem of the 1960s.
+
+- **Result:** a theorem, with a complete proof, that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
+- **How it was checked:** two AI systems (Claude and ChatGPT) worked as implementer and auditor, with statement-only blind tests and hash-frozen records. All computations were re-run independently. A 35-check validation suite I designed passed completely (`COMPLETE_PASS`) on my own PC, covering exact algebra in three engines, numerical stress tests, archive integrity, and every citation.
+- **Honest status:** AI-checked to a high standard, but **not yet reviewed by a human expert or formally machine-verified**. Narrow scope: one setting, one parameter point.
+
+📄 Paper and reproducibility repository: *coming soon*
+
 ## 🔨 What I build (AI-directed)
 
 | Area | What that looks like |
 |---|---|
+| 🔬 **Research verification** | Validation suites, exact-arithmetic checks, hash-pinned archives, mutation tests that prove the checks can fail (BHMAP) |
 | 📄 **Document processing** | PDF parsing, form generation, data extraction pipelines (Python) |
 | 🗂️ **Structured data** | JSON modeling, schema inference, CSV/flat-file processing |
 | 📊 **Excel/VBA applications** | Config-driven rule tables, batch processing, a self-testing framework that verifies its own code |
 
-*Repos coming as I clean them up for sharing.*
+*More repos coming as I clean them up for sharing.*
 
 ## 🧭 How I work
 
@@ -25,8 +36,9 @@ I come up with the projects, design how they should work, write the requirements
 
 - 📋 Requirements written down **before** anything gets built
 - 📏 Measure first, configure second
-- ✅ Test frameworks over hope
-- 📓 Negative results stay on the record
+- ✅ Test frameworks over hope, including tests that are deliberately broken to prove they can fail
+- 🔁 Independent re-checking: never let one AI grade its own work
+- 📓 Negative results and failed attempts stay on the record
 
 ## 📚 Currently learning
 
@@ -42,11 +54,7 @@ I come up with the projects, design how they should work, write the requirements
 ![Rufus](https://img.shields.io/badge/Rufus-boot_media-blue?style=flat-square)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-past_daily_driver-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
-Two custom AM5 builds, BIOS-level recovery, Event Viewer root-cause diagnosis, manual driver/firmware management, disk sanitization.
-
-## 📈 GitHub stats
-
-![Sam's GitHub stats](https://github-readme-stats.vercel.app/api?username=waitandhope123&show_icons=true&theme=default&hide_rank=true)
+Two custom AM5 builds (one runs my research validation on a Ryzen 9 9900X), BIOS-level recovery, Event Viewer root-cause diagnosis, manual driver/firmware management, disk sanitization.
 
 ## 🌱 Off the clock
 
