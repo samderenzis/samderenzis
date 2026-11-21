@@ -9,21 +9,30 @@ I come up with the projects, design how they should work, write the requirements
 
 ---
 
-## 🔬 Featured project: BHMAP (AI-collaborative mathematical physics)
+## 🔬 Featured project: [rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)
+
+[![Repo](https://img.shields.io/badge/GitHub-rarita--schwinger--well--posedness-181717?style=flat-square&logo=github)](https://github.com/samderenzis/rarita-schwinger-well-posedness)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24413648-blue?style=flat-square)](https://doi.org/10.5281/zenodo.24413648)
+![Validation](https://img.shields.io/badge/validation-COMPLETE__PASS-brightgreen?style=flat-square)
+![Status](https://img.shields.io/badge/status-not_peer_reviewed-orange?style=flat-square)
+
+*AI-collaborative mathematical physics (internal programme name: BHMAP).*
 
 A long-running research programme on whether the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** are well-behaved, a question physicists have studied since the Velo–Zwanziger problem of the 1960s.
 
 - **Result:** a theorem, with a complete proof, that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
-- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. All computations were re-run independently. A 35-check validation suite I designed passed completely (`COMPLETE_PASS`) on my own PC, covering exact algebra in three engines, numerical stress tests, archive integrity, and every citation.
+- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. The proof-carrying computations were re-run by a second AI from the original files. A validation suite I designed (now 36 checks) passed completely (`COMPLETE_PASS`) on my own PC, on the full private archive and on the public repository: exact algebra in three engines, numerical stress tests, file integrity, self-tests that must catch deliberate faults, and every citation checked online.
+- **Check it yourself:** the repository has the exact witness (checkable with plain Python, no installs), the proof scripts, and the validator, with a [guide to running it](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md). About 3 minutes on a desktop.
 - **Honest status:** AI-checked to a high standard, but **not yet reviewed by a human expert or formally machine-verified**. Narrow scope: one setting, one parameter point.
 
-📄 Paper and reproducibility repository: *coming soon*
+📦 Repository and archived releases: [GitHub](https://github.com/samderenzis/rarita-schwinger-well-posedness) · [Zenodo](https://doi.org/10.5281/zenodo.24413648)  
+📄 Paper: *coming soon*
 
 ## 🔨 What I build (AI-directed)
 
 | Area | What that looks like |
 |---|---|
-| 🔬 **Research verification** | Validation suites, exact-arithmetic checks, hash-pinned archives, mutation tests that prove the checks can fail (BHMAP) |
+| 🔬 **Research verification** | Validation suites, exact-arithmetic checks, hash-pinned archives, mutation tests that prove the checks can fail ([rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)) |
 | 📄 **Document processing** | PDF parsing, form generation, data extraction pipelines (Python) |
 | 🗂️ **Structured data** | JSON modeling, schema inference, CSV/flat-file processing |
 | 📊 **Excel/VBA applications** | Config-driven rule tables, batch processing, a self-testing framework that verifies its own code |
