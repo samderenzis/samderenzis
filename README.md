@@ -14,7 +14,7 @@ I come up with the projects, design how they should work, write the requirements
 A long-running research programme on whether the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** are well-behaved, a question physicists have studied since the Velo–Zwanziger problem of the 1960s.
 
 - **Result:** a theorem, with a complete proof, that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
-- **How it was checked:** two AI systems (Claude and ChatGPT) worked as implementer and auditor, with statement-only blind tests and hash-frozen records. All computations were re-run independently. A 35-check validation suite I designed passed completely (`COMPLETE_PASS`) on my own PC, covering exact algebra in three engines, numerical stress tests, archive integrity, and every citation.
+- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. All computations were re-run independently. A 35-check validation suite I designed passed completely (`COMPLETE_PASS`) on my own PC, covering exact algebra in three engines, numerical stress tests, archive integrity, and every citation.
 - **Honest status:** AI-checked to a high standard, but **not yet reviewed by a human expert or formally machine-verified**. Narrow scope: one setting, one parameter point.
 
 📄 Paper and reproducibility repository: *coming soon*
