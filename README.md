@@ -1,27 +1,14 @@
 # Hi, I'm Sam 👋
 
-**My background spans security, customer service and distribution operations, with work experience dating to 2011.** In distribution, I progressed from office clerk to operations coordinator, with a focus on billing accuracy and business systems. A lot of that work is investigating discrepancies, maintaining pricing data, and checking that transactions match the records and the business rules behind them.
+**I build software and explore research questions through an iterative collaboration with AI.** My background is in operations and business systems, where checking records, investigating discrepancies and working through exceptions are part of the job. I bring that experience to how I question outputs and test results.
 
-**Outside that, I build software and explore research questions through an iterative collaboration with AI.** I bring the ideas and goals. The AI systems propose approaches, write the code and, in my research, draft the mathematics. I have them challenge each other's reasoning. I also question them along the way, ask for explanations I can follow, and help steer the work through discussion and testing. I'm learning Python so I can take on more of the implementation myself.
+I start with ideas and goals, then work back and forth with AI systems as they propose approaches, write code and, in my research, draft mathematics. I have them challenge each other's reasoning. I also question them along the way and ask for explanations I can follow. I help steer the work through discussion and testing, and I'm learning Python so I can take on more implementation myself.
 
-![Operations](https://img.shields.io/badge/Background-Operations_%26_Business_Systems-2E7D32?style=for-the-badge)
 ![AI-Collaborative](https://img.shields.io/badge/Method-AI--Collaborative_Development-blueviolet?style=for-the-badge)
 ![Learning Python](https://img.shields.io/badge/Currently_Learning-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Builds Hardware](https://img.shields.io/badge/Also-Builds_His_Own_Hardware-orange?style=for-the-badge)
 
 ---
-
-## 🧾 Background I bring to my projects
-
-This is hands-on experience from my professional work:
-
-- **Finding out why numbers don't agree.** Auditing hundreds of invoices a day across a dozen branches, and correcting pricing, cost, freight, sales-tax and unit-of-measure errors.
-- **Reconciling records across systems.** Matching credit-card orders against final invoices, and vendor invoices against purchase orders. Handling chargebacks, returns, warranty claims and billing disputes.
-- **Maintaining rules that systems apply.** Keeping contract-pricing files current in JD Edwards (multipliers, effective dates, approvals), then checking the loaded prices in ReportsNow reports and fixing what came out wrong.
-- **Tracing missing documentation.** Managing material-certification documents and tracking down records that should exist but don't.
-- **Running systems and teaching others.** Operating access-control and CCTV systems, and training new operators.
-
-The habit I carry over is comparing what a system *should* produce with what it *actually* produces, and treating a mismatch as something to explain rather than something to assume away. That experience shapes how I question outputs and test AI-built work.
 
 ## 🔬 Featured project: [rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)
 
