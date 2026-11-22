@@ -1,8 +1,8 @@
 # Hi, I'm Sam 👋
 
-**My background is in distribution operations, billing accuracy and business systems.** Since 2011 I've worked in operations, customer service and security, from office clerk to operations coordinator. A lot of that work is investigating discrepancies, maintaining pricing data, and checking that transactions match the records and the business rules behind them.
+**My background spans security, customer service and distribution operations, with work experience dating to 2011.** In distribution, I progressed from office clerk to operations coordinator, with a focus on billing accuracy and business systems. A lot of that work is investigating discrepancies, maintaining pricing data, and checking that transactions match the records and the business rules behind them.
 
-**Outside that, I build software and explore research questions through an iterative collaboration with AI.** I bring the ideas and goals. The AI systems propose approaches, write the code and, in my research, draft the mathematics. I have them challenge each other, question them along the way, ask for explanations I can follow, and help steer the work through discussion and testing. I'm learning Python so I can take on more of the implementation myself.
+**Outside that, I build software and explore research questions through an iterative collaboration with AI.** I bring the ideas and goals. The AI systems propose approaches, write the code and, in my research, draft the mathematics. I have them challenge each other's reasoning. I also question them along the way, ask for explanations I can follow, and help steer the work through discussion and testing. I'm learning Python so I can take on more of the implementation myself.
 
 ![Operations](https://img.shields.io/badge/Background-Operations_%26_Business_Systems-2E7D32?style=for-the-badge)
 ![AI-Collaborative](https://img.shields.io/badge/Method-AI--Collaborative_Development-blueviolet?style=for-the-badge)
@@ -21,7 +21,7 @@ This is hands-on experience from my professional work:
 - **Tracing missing documentation.** Managing material-certification documents and tracking down records that should exist but don't.
 - **Running systems and teaching others.** Operating access-control and CCTV systems, and training new operators.
 
-The habit I carry over is comparing what a system *should* produce with what it *actually* produces, and treating a mismatch as something to explain rather than something to assume away. That shapes how I test AI-built work. It is not a substitute for software-engineering or mathematical expertise.
+The habit I carry over is comparing what a system *should* produce with what it *actually* produces, and treating a mismatch as something to explain rather than something to assume away. That experience shapes how I question outputs and test AI-built work.
 
 ## 🔬 Featured project: [rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)
 
@@ -43,7 +43,7 @@ The habit I carry over is comparing what a system *should* produce with what it 
 - `COMPLETE_PASS` is the validation suite's own reported status for its 36 checks. It is not a certification of the theorem.
 
 **Check it yourself.**
-- The exact witness can be checked with plain Python, with no installs.
+- The exact witness can be checked with Python, with no third-party packages required.
 - The full validator needs a few packages. It took about 3 minutes on my 12-core desktop.
 - See the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), the [repository](https://github.com/samderenzis/rarita-schwinger-well-posedness), the [archived releases on Zenodo](https://doi.org/10.5281/zenodo.24413648), and the [guide to running the validator](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md).
 
@@ -63,9 +63,9 @@ The habit I carry over is comparing what a system *should* produce with what it 
 | 🔬 **Research verification** | Validation suites, exact-arithmetic checks, hash-pinned archives, mutation tests that confirm the checks catch introduced faults ([rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)) |
 | 📄 **Document processing** | PDF parsing, form generation, data extraction pipelines (Python) |
 | 🗂️ **Structured data** | JSON modeling, schema inference, CSV/flat-file processing |
-| 📊 **Excel/VBA applications** | Config-driven rule tables, batch processing, a self-testing framework that verifies its own code |
+| 📊 **Excel/VBA applications** | Config-driven rule tables, batch processing, a self-testing framework that checks its own behavior |
 
-The code in these projects is AI-written. My part is the idea, the rules it has to follow, the questions along the way, and the testing. *More repos coming as I clean them up for sharing.*
+These projects use AI-written code, developed through the collaborative process described above. *More repos coming as I clean them up for sharing.*
 
 ## 🧭 How I work
 
