@@ -29,6 +29,8 @@ A long-running research programme on whether the equations for a **charged, mass
 📦 Repository and archived releases: [GitHub](https://github.com/samderenzis/rarita-schwinger-well-posedness) · [Zenodo](https://doi.org/10.5281/zenodo.24413648)  
 📄 Paper: [version 2 (PDF, 27 pages)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), posted in release [v1.0.9](https://github.com/samderenzis/rarita-schwinger-well-posedness/releases/tag/v1.0.9) with its LaTeX source, after reviews by Perplexity and ChatGPT. Next step: independent review by a human expert.
 
+🧭 Follow-up: [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) is a new, exploratory repo asking whether the same breakdown survives when the charge is varied on its own (off the "Pauli slice"). Planning stage, no results yet.
+
 ## 🔨 What I build (AI-directed)
 
 | Area | What that looks like |
