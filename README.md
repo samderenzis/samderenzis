@@ -1,7 +1,8 @@
 # Hi, I'm Sam 👋
 
-**I build real software and research through AI-collaborative work.**
-I come up with the projects, design how they should work, write the requirements, and test everything myself, while AI writes the code (and, in my research, drafts the mathematics) under my direction. I'm not the programmer yet: I'm the architect, product owner, and QA. I think that split is the interesting part, so I'm honest about it.
+**I build software and develop research projects through AI-collaborative work.**
+
+I originate the projects, design how they should work, write the requirements, and test the results. AI does the code implementation and, in my research, drafts the mathematics under my direction. My role is architecture, product ownership and quality assurance. I'm learning Python so I can take on more of the implementation myself, and I keep that division of labour explicit.
 
 ![AI-Collaborative](https://img.shields.io/badge/Method-AI--Collaborative_Development-blueviolet?style=for-the-badge)
 ![Learning Python](https://img.shields.io/badge/Currently_Learning-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -11,31 +12,42 @@ I come up with the projects, design how they should work, write the requirements
 
 ## 🔬 Featured project: [rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)
 
-[![Repo](https://img.shields.io/badge/GitHub-rarita--schwinger--well--posedness-181717?style=flat-square&logo=github)](https://github.com/samderenzis/rarita-schwinger-well-posedness)
+[![Paper](https://img.shields.io/badge/paper-PDF-informational?style=flat-square)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24413648-blue?style=flat-square)](https://doi.org/10.5281/zenodo.24413648)
-![Validation](https://img.shields.io/badge/validation-COMPLETE__PASS-brightgreen?style=flat-square)
-[![Paper](https://img.shields.io/badge/paper-v2_(PDF)-informational?style=flat-square)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf)
+![Validator](https://img.shields.io/badge/validator_%2836_checks%29-COMPLETE__PASS-brightgreen?style=flat-square)
 ![Status](https://img.shields.io/badge/status-not_peer_reviewed-orange?style=flat-square)
 
-*AI-collaborative mathematical physics (internal programme name: BHMAP).*
+**The question.** Are the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** well-behaved? Physicists have worked on this since the Velo–Zwanziger problem of the 1960s.
 
-A long-running research programme on whether the equations for a **charged, massive spin-3/2 (Rarita–Schwinger) field** are well-behaved, a question physicists have studied since the Velo–Zwanziger problem of the 1960s.
+**What the paper states.** It gives a theorem, with a written proof, for one explicit setting: a curved background with a steady magnetic field, at one exact parameter point. In that setting, the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The obstruction is an exact, checkable algebraic structure: a Jordan block.
 
-- **Result:** a theorem, with a written proof in the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), that in one explicit setting (a curved background with a steady magnetic field, at an exact parameter point) the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The breakdown is pinned to an exact, checkable algebraic "fingerprint" (a Jordan block).
-- **How it was checked:** Claude and ChatGPT worked as implementer and auditor, with statement-only blind tests and hash-frozen records; I also use Perplexity for literature searches and physics cross-checks. The exact-check scripts were re-run by a second AI from the original files, and ChatGPT did a full review of the paper, code and archive, finding no error in the mathematics. A validation suite I designed (now 36 checks) passed completely (`COMPLETE_PASS`) on my own PC, on the full private archive and on the public repository: exact algebra in three engines, numerical stress tests, file integrity, self-tests that must catch deliberate faults, and every cited DOI and arXiv ID confirmed to exist online.
-- **Check it yourself:** the repository has the paper and its LaTeX source, the exact witness (checkable with plain Python, no installs), the exact-check scripts, and the validator, with a [guide to running it](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md). About 3 minutes on a desktop.
-- **Honest status:** reviewed by AI systems only. It is **not yet reviewed by a human expert, not independently replicated and not formally machine-verified**. Narrow scope: one setting, one parameter point. It doesn't say which of the three properties fails, and makes no physical claims. Feedback from specialists in hyperbolic PDE or higher-spin fields is very welcome.
+**How it was checked.**
+- Implementation and review were done by separate AI systems: Claude implemented, and ChatGPT audited.
+- Key lemmas were tested by statement-only blind derivations, with hash-frozen records.
+- The algebra was checked exactly, in three engines.
+- Mutation tests confirm that the checks catch faults introduced on purpose.
+- An AI review of the paper, code and archive reported no errors in the mathematics.
+- `COMPLETE_PASS` is the validation suite's own reported status for its 36 checks. It is not a certification of the theorem.
 
-📦 Repository and archived releases: [GitHub](https://github.com/samderenzis/rarita-schwinger-well-posedness) · [Zenodo](https://doi.org/10.5281/zenodo.24413648)  
-📄 Paper: [version 2 (PDF, 27 pages)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), posted in release [v1.0.9](https://github.com/samderenzis/rarita-schwinger-well-posedness/releases/tag/v1.0.9) with its LaTeX source, after reviews by Perplexity and ChatGPT. Next step: independent review by a human expert.
+**Check it yourself.**
+- The exact witness can be checked with plain Python, with no installs.
+- The exact-check scripts and the full validator need a few packages. The full validator took about 3 minutes on my 12-core desktop.
+- See the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), the [repository](https://github.com/samderenzis/rarita-schwinger-well-posedness), the [archived releases on Zenodo](https://doi.org/10.5281/zenodo.24413648), and the [guide to running the validator](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md).
 
-🧭 Follow-up: [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) is a new, exploratory repo asking whether the same breakdown survives when the charge is varied on its own (off the "Pauli slice"). Planning stage, no results yet.
+**Status.**
+- Reviewed by AI systems only.
+- **Not yet reviewed by a human expert, not independently replicated, and not formally machine-verified.**
+- Narrow scope: one setting, one parameter point.
+- It does not say which of the three properties fails, and no broader physical conclusion should be drawn from it.
+- Feedback from specialists in hyperbolic PDE or higher-spin fields is very welcome.
+
+🧭 **Follow-up:** [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) is a separate, exploratory repo. It asks whether the breakdown survives when the charge is varied on its own, off the "Pauli slice". It is at the planning stage, with no results yet.
 
 ## 🔨 What I build (AI-directed)
 
 | Area | What that looks like |
 |---|---|
-| 🔬 **Research verification** | Validation suites, exact-arithmetic checks, hash-pinned archives, mutation tests that prove the checks can fail ([rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)) |
+| 🔬 **Research verification** | Validation suites, exact-arithmetic checks, hash-pinned archives, mutation tests that confirm the checks catch introduced faults ([rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)) |
 | 📄 **Document processing** | PDF parsing, form generation, data extraction pipelines (Python) |
 | 🗂️ **Structured data** | JSON modeling, schema inference, CSV/flat-file processing |
 | 📊 **Excel/VBA applications** | Config-driven rule tables, batch processing, a self-testing framework that verifies its own code |
@@ -48,8 +60,8 @@ A long-running research programme on whether the equations for a **charged, mass
 
 - 📋 Requirements written down **before** anything gets built
 - 📏 Measure first, configure second
-- ✅ Test frameworks over hope, including tests that are deliberately broken to prove they can fail
-- 🔁 Separate re-checking: never let one AI grade its own work
+- ✅ Test frameworks over hope, including deliberately broken inputs that the tests must catch
+- 🔁 Implementation and review kept separate, with a second AI system for cross-checks
 - 📓 Negative results and failed attempts stay on the record
 
 ## 📚 Currently learning
