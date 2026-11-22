@@ -1,14 +1,27 @@
 # Hi, I'm Sam 👋
 
-**I build software and develop research projects through AI-collaborative work.**
+**My background is in distribution operations, billing accuracy and business systems.** Since 2011 I've worked in operations, customer service and security, from office clerk to operations coordinator. A lot of that work is investigating discrepancies, maintaining pricing data, and checking that transactions match the records and the business rules behind them.
 
-I originate the projects, design how they should work, write the requirements, and test the results. AI does the code implementation and, in my research, drafts the mathematics under my direction. My role is architecture, product ownership and quality assurance. I'm learning Python so I can take on more of the implementation myself, and I keep that division of labour explicit.
+**Outside that, I build software and explore research questions through an iterative collaboration with AI.** I bring the ideas and goals. The AI systems propose approaches, write the code and, in my research, draft the mathematics. I have them challenge each other, question them along the way, ask for explanations I can follow, and help steer the work through discussion and testing. I'm learning Python so I can take on more of the implementation myself.
 
+![Operations](https://img.shields.io/badge/Background-Operations_%26_Business_Systems-2E7D32?style=for-the-badge)
 ![AI-Collaborative](https://img.shields.io/badge/Method-AI--Collaborative_Development-blueviolet?style=for-the-badge)
 ![Learning Python](https://img.shields.io/badge/Currently_Learning-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Builds Hardware](https://img.shields.io/badge/Also-Builds_His_Own_Hardware-orange?style=for-the-badge)
 
 ---
+
+## 🧾 Background I bring to my projects
+
+This is hands-on experience from my professional work:
+
+- **Finding out why numbers don't agree.** Auditing hundreds of invoices a day across a dozen branches, and correcting pricing, cost, freight, sales-tax and unit-of-measure errors.
+- **Reconciling records across systems.** Matching credit-card orders against final invoices, and vendor invoices against purchase orders. Handling chargebacks, returns, warranty claims and billing disputes.
+- **Maintaining rules that systems apply.** Keeping contract-pricing files current in JD Edwards (multipliers, effective dates, approvals), then checking the loaded prices in ReportsNow reports and fixing what came out wrong.
+- **Tracing missing documentation.** Managing material-certification documents and tracking down records that should exist but don't.
+- **Running systems and teaching others.** Operating access-control and CCTV systems, and training new operators.
+
+The habit I carry over is comparing what a system *should* produce with what it *actually* produces, and treating a mismatch as something to explain rather than something to assume away. That shapes how I test AI-built work. It is not a substitute for software-engineering or mathematical expertise.
 
 ## 🔬 Featured project: [rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)
 
@@ -22,7 +35,7 @@ I originate the projects, design how they should work, write the requirements, a
 **What the paper states.** It gives a theorem, with a written proof, for one explicit setting: a curved background with a steady magnetic field, at one exact parameter point. In that setting, the equations **cannot have existence, uniqueness and a loss-free energy bound all at once**. The obstruction is an exact, checkable algebraic structure: a Jordan block.
 
 **How it was checked.**
-- Implementation and review were done by separate AI systems: Claude implemented, and ChatGPT audited.
+- The work developed iteratively between me, Claude and ChatGPT. Their roles overlapped; for specific steps, one system audited the other's work.
 - Key lemmas were tested by statement-only blind derivations, with hash-frozen records.
 - The algebra was checked exactly, in three engines.
 - Mutation tests confirm that the checks catch faults introduced on purpose.
@@ -31,7 +44,7 @@ I originate the projects, design how they should work, write the requirements, a
 
 **Check it yourself.**
 - The exact witness can be checked with plain Python, with no installs.
-- The exact-check scripts and the full validator need a few packages. The full validator took about 3 minutes on my 12-core desktop.
+- The full validator needs a few packages. It took about 3 minutes on my 12-core desktop.
 - See the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), the [repository](https://github.com/samderenzis/rarita-schwinger-well-posedness), the [archived releases on Zenodo](https://doi.org/10.5281/zenodo.24413648), and the [guide to running the validator](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md).
 
 **Status.**
@@ -43,7 +56,7 @@ I originate the projects, design how they should work, write the requirements, a
 
 🧭 **Follow-up:** [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) is a separate, exploratory repo. It asks whether the breakdown survives when the charge is varied on its own, off the "Pauli slice". It is at the planning stage, with no results yet.
 
-## 🔨 What I build (AI-directed)
+## 🔨 What I build (with AI)
 
 | Area | What that looks like |
 |---|---|
@@ -52,16 +65,14 @@ I originate the projects, design how they should work, write the requirements, a
 | 🗂️ **Structured data** | JSON modeling, schema inference, CSV/flat-file processing |
 | 📊 **Excel/VBA applications** | Config-driven rule tables, batch processing, a self-testing framework that verifies its own code |
 
-*More repos coming as I clean them up for sharing.*
+The code in these projects is AI-written. My part is the idea, the rules it has to follow, the questions along the way, and the testing. *More repos coming as I clean them up for sharing.*
 
 ## 🧭 How I work
 
-> I don't trust automation until I've done the job manually and understand what the tool is deciding for me.
-
-- 📋 Requirements written down **before** anything gets built
-- 📏 Measure first, configure second
-- ✅ Test frameworks over hope, including deliberately broken inputs that the tests must catch
-- 🔁 Implementation and review kept separate, with a second AI system for cross-checks
+- 🔎 For tasks I know firsthand, I use that experience to judge whether an automated result makes sense. In unfamiliar technical work, I ask for explanations and rely on tests and cross-checks, not a convincing answer.
+- 📋 Write down the goal, clarify the rules, and refine the requirements as the work develops
+- ✅ Tests over hope, including deliberately broken inputs that the tests must catch
+- 🔁 Multiple AI systems used to challenge proposed solutions, surface disagreements and guide revisions
 - 📓 Negative results and failed attempts stay on the record
 
 ## 📚 Currently learning
@@ -78,7 +89,7 @@ I originate the projects, design how they should work, write the requirements, a
 ![Rufus](https://img.shields.io/badge/Rufus-boot_media-blue?style=flat-square)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-past_daily_driver-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
-Two custom AM5 builds (one runs my research validation on a Ryzen 9 9900X), BIOS-level recovery, Event Viewer root-cause diagnosis, manual driver/firmware management, disk sanitization.
+Hands-on: two custom AM5 builds (one runs my research validation on a Ryzen 9 9900X), BIOS-level recovery, Event Viewer root-cause diagnosis, manual driver/firmware management, disk sanitization.
 
 ## 🌱 Off the clock
 
