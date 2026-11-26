@@ -41,7 +41,7 @@ I start with ideas and goals, then work back and forth with AI systems as they p
 - It does not say which of the three properties fails, and no broader physical conclusion should be drawn from it.
 - Feedback from specialists in hyperbolic PDE or higher-spin fields is very welcome.
 
-🧭 **Follow-up:** [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) is a separate, exploratory repo. It asks whether the breakdown survives when the charge is varied on its own, off the "Pauli slice". It is at the planning stage, with no results yet.
+🧭 **Follow-up:** [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) is a separate, exploratory repo. It asks whether the breakdown survives when the charge is varied on its own, off the "Pauli slice". It now has AI-checked results along that direction (exact Jordan chains at the split crossings), not yet released or reviewed by a human expert.
 
 ## 🔨 What I build (with AI)
 
