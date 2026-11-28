@@ -36,12 +36,12 @@ I start with ideas and goals, then work back and forth with AI systems as they p
 
 **Status.**
 - Reviewed by AI systems only.
-- **Not yet reviewed by a human expert, not independently replicated, and not formally machine-verified.**
+- **Not reviewed by a human expert, not independently replicated, and not formally machine-verified.**
 - Narrow scope: one setting, one parameter point.
 - It does not say which of the three properties fails, and no broader physical conclusion should be drawn from it.
 - Feedback from specialists in hyperbolic PDE or higher-spin fields is very welcome.
 
-🧭 **Follow-up:** two separate, exploratory repos ask whether the breakdown survives when the charge is varied on its own, off the "Pauli slice". [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) has AI-checked results along that direction (exact Jordan chains at the split crossings). [rarita-schwinger-off-slice-certificates](https://github.com/samderenzis/rarita-schwinger-off-slice-certificates) (release B6.6.1) adds exact-arithmetic certificates, an independent verifier, and planted-bug and mutation tests that check the verifier itself. It was reviewed by ChatGPT and Perplexity and is not yet reviewed by a human expert.
+🧭 **Follow-up:** two separate, exploratory repos ask whether the breakdown survives when the charge is varied on its own, off the "Pauli slice". [rarita-schwinger-off-slice](https://github.com/samderenzis/rarita-schwinger-off-slice) has AI-checked results along that direction (exact Jordan chains at the split crossings). [rarita-schwinger-off-slice-certificates](https://github.com/samderenzis/rarita-schwinger-off-slice-certificates) (release B6.6.1) adds exact-arithmetic certificates, an independent verifier, and planted-bug and mutation tests that check the verifier itself. It was built with Claude and reviewed by ChatGPT and Perplexity; it has not been reviewed by a human expert.
 
 ## 🔨 What I build (with AI)
 
