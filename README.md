@@ -13,7 +13,7 @@ I start with ideas and goals, then work back and forth with AI systems as they p
 ## 🔬 Featured project: [rarita-schwinger-well-posedness](https://github.com/samderenzis/rarita-schwinger-well-posedness)
 
 [![Paper](https://img.shields.io/badge/paper-PDF-informational?style=flat-square)](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24413648-blue?style=flat-square)](https://doi.org/10.5281/zenodo.24413648)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24413647-blue?style=flat-square)](https://doi.org/10.5281/zenodo.24413647)
 ![Validator](https://img.shields.io/badge/validator_%2836_checks%29-COMPLETE__PASS-brightgreen?style=flat-square)
 ![Status](https://img.shields.io/badge/status-not_peer_reviewed-orange?style=flat-square)
 
@@ -32,7 +32,7 @@ I start with ideas and goals, then work back and forth with AI systems as they p
 **Check it yourself.**
 - The exact witness can be checked with Python, with no third-party packages required.
 - The full validator needs a few packages. It took about 3 minutes on my 12-core desktop.
-- See the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), the [repository](https://github.com/samderenzis/rarita-schwinger-well-posedness), the [archived releases on Zenodo](https://doi.org/10.5281/zenodo.24413648), and the [guide to running the validator](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md).
+- See the [paper](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/paper/main.pdf), the [repository](https://github.com/samderenzis/rarita-schwinger-well-posedness), the [archived releases on Zenodo](https://doi.org/10.5281/zenodo.24413647), and the [guide to running the validator](https://github.com/samderenzis/rarita-schwinger-well-posedness/blob/main/RUNNING_THE_VALIDATOR.md).
 
 **Status.**
 - Reviewed by AI systems only.
